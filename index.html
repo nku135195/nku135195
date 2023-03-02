@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meine Webseite</title>
+    <style>
+      body {
+        background-color: #333;
+        color: #fff;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        font-size: 3em;
+        text-align: center;
+        margin-top: 2em;
+      }
+      p {
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 2em;
+      }
+      .pattern {
+        font-size: 5em;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+      .line1 {
+        transform: rotate(-45deg);
+      }
+      .line2 {
+        transform: rotate(45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pattern line1">\\|||||||//</div>
+    <div class="pattern line2">//|||||\\</div>
+    <h1>Willkommen auf meiner Webseite</h1>
+    <p>Diese Webseite wurde in Docker erstellt.</p>
+  </body>
+</html>
